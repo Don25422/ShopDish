@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'assets/img_11.png' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <style>
+        h1{
+            text-align: center;
+            color: saddlebrown;
+            font-size: 50px;
+            text-shadow: 8px 8px 8px black;
+        }
+    </style>
+</head>
+<body>
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{% url 'about' %}">About</a>
+
+<marquee behavior="" direction=""><h1>ShopDish App</h1></marquee>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at beatae cupiditate eaque expedita explicabo ipsa libero nesciunt perferendis porro quaerat quia, quibusdam rerum, sunt suscipit temporibus ullam, voluptatem voluptatum.</span><span>Ab accusantium ad alias blanditiis corporis distinctio dolore doloribus earum eligendi eveniet ex expedita explicabo impedit inventore, iste nihil nostrum odit optio perspiciatis quo rem ullam veritatis voluptate. Fugit, repellat.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolore facere iusto officia omnis quos veritatis voluptatum! Aperiam dolore doloremque eum, excepturi facere, ipsam iure iusto laborum perferendis praesentium quos!</span><span>Ad aliquam animi aspernatur cupiditate dicta dolores ea eligendi excepturi facilis inventore ipsum itaque molestias mollitia nam numquam placeat provident quae quidem, quisquam ratione rerum saepe sed similique vel voluptatem.</span></p>
+
+</body>
+</html>

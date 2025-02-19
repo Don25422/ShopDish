@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    {% load static %}
+    <link rel="icon" href="{% static 'assets/img_10.png' %}">
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+            line-height: 80px;
+        }
+        h1:hover{
+            background-color: grey;
+        }
+        img{
+            width: 230px;
+            height: 280px;
+        }
+
+    </style>
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'about' %}">About</a>
+
+<h1>Products Offered AT ShopDish</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga magni necessitatibus quo reprehenderit. Culpa illo laudantium libero quasi veritatis. Esse nihil repellat sint vero voluptates. Consequuntur doloribus ducimus itaque perferendis.</span><span>Ab accusamus aliquid, aspernatur dolores eum facilis in inventore ipsam libero maxime nihil numquam odio quos repudiandae sint soluta sunt. Deleniti earum excepturi id ipsa rerum. Asperiores nisi obcaecati voluptas.</span></p>
+<img src="{% static 'assets/img.png' %}" alt="">
+<img src="{% static 'assets/img_1.png' %}" alt="">
+<img src="{% static 'assets/img_2.png' %}" alt="">
+<img src="{% static 'assets/img_3.png' %}" alt="">
+<img src="{% static 'assets/img_4.png' %}" alt="">
+<img src="{% static 'assets/img_5.png' %}" alt="">
+<img src="{% static 'assets/img_6.png' %}" alt="">
+<img src="{% static 'assets/img_7.png' %}" alt="">
+<img src="{% static 'assets/img_8.png' %}" alt="">
+</body>
+</html>
